@@ -12,3 +12,22 @@
 // Create a guard clause maybe using max and min?
 // Array.for each to add each element in the array to our initial value
 // Use an if statement to determine what level the integer is equivalent to
+
+// Code:
+
+const solution = (initial, changes) => {
+  let newInt = initial;
+  for (let i = 0; i < changes.length; i++) {
+    newInt = Math.min(2500, Math.max(1, newInt));
+    newInt += changes[i];
+  }
+  if (newInt < 1000) {
+    return "beginner";
+  } else if (newInt < 1500 && newInt >= 1000) {
+    return "intermediate";
+  } else if (newInt >= 1500 && newInt < 2000) {
+    return "advanced";
+  } else {
+    return "pro";
+  }
+};
