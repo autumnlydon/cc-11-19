@@ -1,3 +1,5 @@
+// PEDAC
+
 // Problem:
 // Inputs: an integer between 1 and 2500, an array of positive and negative integers
 // Output: a string associated with the final rating of a user based off of the integer
