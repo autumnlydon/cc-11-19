@@ -11,9 +11,8 @@
 // Algorithm:
 // Create a guard clause maybe using max and min?
 // Array.for each to add each element in the array to our initial value
-// Or for loop
+// Or for loop why not?
 // Use an if statement to determine what level the integer is equivalent to
-k
 // Code:
 
 const solution = (initial, changes) => {
