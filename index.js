@@ -13,7 +13,7 @@
 // Array.for each to add each element in the array to our initial value
 // Or for loop
 // Use an if statement to determine what level the integer is equivalent to
-
+k
 // Code:
 
 const solution = (initial, changes) => {
